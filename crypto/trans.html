@@ -1,0 +1,238 @@
+<html>
+    <head>
+        <style>
+
+.bg {
+    background-image: url("./wallet.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div a {
+                text-decoration: none;
+                float: left;
+                margin-right: 15%;
+            }
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-family: Helvetica;
+    -webkit-font-smoothing: antialiased;
+    background: rgba( 71, 147, 227, 1);
+}
+h2{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    padding: 30px 0;
+}
+
+/* Table Styles */
+
+.table-wrapper{
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+    .fl-table {
+        display: block;
+        width: 100%;
+    }
+    .table-wrapper:before{
+        content: "Scroll horizontally >";
+        display: block;
+        text-align: right;
+        font-size: 11px;
+        color: white;
+        padding: 0 0 10px;
+    }
+    .fl-table thead, .fl-table tbody, .fl-table thead th {
+        display: block;
+    }
+    .fl-table thead th:last-child{
+        border-bottom: none;
+    }
+    .fl-table thead {
+        float: left;
+    }
+    .fl-table tbody {
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+    }
+    .fl-table td, .fl-table th {
+        padding: 20px .625em .625em .625em;
+        height: 60px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 120px;
+        font-size: 13px;
+        text-overflow: ellipsis;
+    }
+    .fl-table thead th {
+        text-align: left;
+        border-bottom: 1px solid #f7f7f9;
+    }
+    .fl-table tbody tr {
+        display: table-cell;
+    }
+    .fl-table tbody tr:nth-child(odd) {
+        background: none;
+    }
+    .fl-table tr:nth-child(even) {
+        background: transparent;
+    }
+    .fl-table tr td:nth-child(odd) {
+        background: #F8F8F8;
+        border-right: 1px solid #E6E4E4;
+    }
+    .fl-table tr td:nth-child(even) {
+        border-right: 1px solid #E6E4E4;
+    }
+    .fl-table tbody td {
+        display: block;
+        text-align: center;
+    }
+}            
+</style>
+</head>
+
+<body class="bg">
+    <div><a href="dash.html"><==Back</a></div>
+    <center>
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+        <tr>
+            <th>SI.No</th>
+            <th>Account</th>
+            <th>Amount</th>
+            <th>Transaction</th>
+            <th>Date</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>1234567890</td>
+            <td>1200</td>
+            <td>Withdraw</td>
+            <td>10.10.2022</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>1234567890</td>
+            <td>25000</td>
+            <td>Deposit</td>
+            <td>21.10.2022</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>1234567890</td>
+            <td>2400</td>
+            <td>Transaction to 1234098665</td>
+            <td>22.10.2022</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>1234567890</td>
+            <td>20000</td>
+            <td>Withdraw</td>
+            <td>11.11.2022</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>1234567890</td>
+            <td>7000</td>
+            <td>Transaction from 2345678</td>
+            <td>12.11.2022</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>1234567890</td>
+            <td>45000</td>
+            <td>Deposit</td>
+            <td>2.12.2022</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>1234567890</td>
+            <td>6000</td>
+            <td>Withdraw</td>
+            <td>10.12.2022</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>1234567890</td>
+            <td>200000</td>
+            <td>Deposit</td>
+            <td>20.12.2022</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>1234567890</td>
+            <td>4000</td>
+            <td>Transaction to 12131837289</td>
+            <td>31.12.2022</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>1234567890</td>
+            <td>1000</td>
+            <td>Withdraw</td>
+            <td>01.01.2023</td>
+        </tr>
+        <tbody>
+    </table>
+</div>
+    </center>
+</body>
+</html>
